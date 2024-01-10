@@ -18,7 +18,7 @@ If you are running this project on a jupyter notebook, start the jupyter noteboo
   cd spartificial-solar-flare-prediction
 ```
 
-Then, comment the lines which have pd.read_csv and replace them with the comments below, which are the lines that work for jupyter notebooks
+Then, comment `from google.colab import files`, and the lines which have pd.read_csv and replace them with the comments below, which are the lines that work for jupyter notebooks
 
 If you are facing errors like package not found in jupyter notebook, then create a new cell, run the code given below, then rerun the jupyter notebook.
 
